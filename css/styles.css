@@ -1,0 +1,284 @@
+@import url("reset.css");
+
+@import url("/fonts/fonts.css");
+
+
+
+/************* GLOBAL ************************************************************************/
+a {
+  text-decoration: none;
+  display: block;
+  color: #161616;
+  line-height: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #d8d8d6;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #161616;
+}
+
+header {
+  background: #81a36b;
+}
+
+.header-list li a:hover {
+  color: white;
+  text-shadow: -2px 2px 2px #161616;
+}
+
+.header-list li a:active {
+  color: #000;
+  text-shadow: 0 0 0;
+}
+
+.section-3-list li:hover {
+  color: white;
+  /* text-shadow: -2px 2px 2px #161616; */
+}
+
+.section-3-list li:active {
+  color: rgb(0, 0, 0);
+}
+
+.section-3-list img:hover {
+  fill: red;
+}
+
+
+
+footer {
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 22px;
+  background: #81A36B;
+}
+/***** TITLES - SUBTITLES - ABOUT - PARAGRAPH **************************************/
+
+
+.container {
+  max-width: 1140px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+
+/****** HEADER **********************************************************************/
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  gap: 20px;
+  padding: 25px 0;
+}
+
+/************ main-section 1 **************************************************************/
+.section-1-in {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 120px;
+}
+
+.img-sect-1 img {
+  object-fit: cover;
+  height: 100%;
+  vertical-align: bottom;
+}
+
+.Amelia {
+  font-family: "Architects Daughter";
+  font-weight: 400;
+  font-size: 62px;
+  margin-bottom: 41px;
+}
+
+.lorm-1 {
+  margin-bottom: 20px;
+}
+
+.bts {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.bt1, .bt2 {
+  background: #81a36b;
+  border-radius: 6px;
+  padding: 18px;
+  cursor: pointer;
+}
+
+.bt2 {
+  background: transparent;
+  border: 1px solid #81A36B;
+}
+
+.bt2:hover {
+  background: #81a36b;
+  /* text-shadow: -2px 2px 2px #161616; */
+}
+
+.bt2:active {
+  background: #556b46;
+  color: white;
+}
+
+.bt1:hover {
+  background-color: #556b46;
+  color: white;
+}
+
+.bt1:active {
+  background: #81a36b;
+  color: #000;
+}
+
+/*********** main-section 2 *************************************************************/
+.section-2-in {
+  max-width: 570px;
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.About {
+  font-size: 32px;
+  font-weight: 400;
+  color: #161616;
+  font-family: "Architects Daughter";
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/********** main-section 3 *************************************************************/
+.section-3 {
+  background: #81a36b;
+}
+
+.section-3-list {
+  padding: 78px 15px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  line-height: 10px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  margin-bottom: 120px;
+}
+.section-3-list a {
+  margin-bottom: 25px;
+}
+
+/********** main-section 4 *************************************************************/
+.section-4-in {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 120px;
+}
+
+.sect-4-img img {
+  vertical-align: bottom;
+}
+
+.sect-4-text {
+  text-align: justify;
+}
+
+.how {
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "Architects Daughter";
+  font-size: 32px;
+}
+
+/********** main-section 5 *************************************************************/
+.ourWorks {
+  font-family: "Architects Daughter";
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cards-list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 120px;
+}
+
+.cards-list img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 15px 15px 0 15px;
+  vertical-align: bottom;
+}
+
+.card-1, .card-2, .card-3 {
+  background: #81A36B;
+  border-radius: 6px;
+  
+}
+
+.cards-list span {
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 23px;
+  padding-bottom: 40px;
+}
+
+
+/*********** FOOTER *********************************************************************/
+.footer {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.AMF {
+  font-size: 36px;
+  font-family: "Architects Daughter";
+  padding-bottom: 25px;
+}
+
+.Contacts {
+  padding-bottom: 20px;
+}
+
+.num-1, .num-2, .adress, .FooterImg {
+  padding-bottom: 15px;
+}
+
+.year2023 {
+  font: 16px "Roboto";
+  font-weight: 700;
+}
+
+/**** END of default version **************************************************************************************/
+
+/**** Start MOBILE-FIRST ****************************************************************/
